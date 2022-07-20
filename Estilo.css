@@ -1,0 +1,253 @@
+body {
+	background-color: papayawhip;
+	max-width: 1400px;
+}
+
+/* Fontes */
+
+/* Começo do card parte onde ficam todos os conteudos */
+div.card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+ 	width: 790px;
+}
+.card {
+  border-radius: 11px;
+  margin: auto;
+  background-color: white;
+  display: flex;
+}
+
+.card:hover {
+	box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.3);
+}
+/* Final do card parte onde ficam todos os conteudos */
+
+/* Começo do container parte onde ficam todos os conteudos */
+.container {
+	width: 30px;
+	padding: 5px;
+	margin: auto;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+.img {
+	width: 22rem;
+	border-radius: 11px 0 0 11px;
+
+}
+
+.texto h1 {
+	font-family: 'Diplomata SC', cursive;
+
+}
+.texto {
+	font-weight: 700;
+
+}
+.texto p {
+	color: dimgrey;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+}
+div.card-preco {
+		display: flex;
+    justify-content: space-around;
+}
+p.preco2.preco1{
+	align-items: center;
+	align-content: center;
+}
+p.preco2 {
+		margin: auto;
+		margin-bottom: 15px;
+		color: grey;
+  	text-decoration-line: line-through;
+  	text-align: right;
+  	padding-right: 100px; 	
+}
+p.preco1 {
+		margin-bottom: 15px;
+    color: green;
+    font-size: 2.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-family: fantasy;
+}
+div button.botao{
+	margin: auto;
+	padding: 1.2rem;
+	display: flex;
+	flex-direction: row-reverse;
+	margin-bottom: 10px;
+}
+.botao {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: darkgreen;
+  text-align: center;
+  cursor: pointer;
+  width: auto;
+  font-size: 18px;
+  border-radius: 15px;
+}
+.botao:hover {
+	opacity: 0.7;
+}
+svg {
+	background-color: darkgreen;
+	color: white;
+	margin-left: 9px;
+}
+/* Final do Container parte onde ficam todos os conteudos */
+
+/* Inicio Rodape */
+.attribution a{ 
+	text-decoration-line: underline;
+	color: green;
+}
+.attribution { 
+	text-align: center;
+	font-family: sans-serif;
+}
+.rodape:hover {
+	color: red;
+}
+.attribution a:hover {
+	color: red;
+}
+/* Final Rodape */
+
+@media screen and (max-width: 375px) {
+  body {
+
+    background-color: papayawhip;
+  }
+  /* Começo do card parte onde ficam todos os conteudos */
+div.card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+ 		width: auto;
+ 		display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+  border-radius: 11px;
+  margin: auto;
+  background-color: white;
+  display: flex;
+}
+
+.card:hover {
+	box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.3);
+}
+/* Final do card parte onde ficam todos os conteudos */
+
+/* Começo do container parte onde ficam todos os conteudos */
+.container {
+	width: auto;
+	padding: 5px;
+	margin: auto;
+	display: flex;
+  	justify-content: center;
+  
+}
+img.img { 
+	background-image: url(./images/image-product-mobile.jpg);
+	width: 359px;
+	border-radius: 11px 11px 0 0;
+	display: flex;
+}
+
+.texto h1 {
+	font-family: fantasy;
+ 	font-size: 1.6rem;
+ 	font-weight: 2px;
+ 	letter-spacing: 2px;
+}
+
+.texto {
+	font-weight: 700;
+	align-content: flex-start;
+	padding-left: 15px;
+}
+.texto p {
+	color: dimgrey;
+    font-size: 01.1rem;
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+}
+.card-preco {
+		display: flex;
+    justify-content: space-around;
+}
+p.preco2.preco1{
+	align-items: center;
+	align-content: center;
+}
+p.preco2 {
+		display: flex;
+  	
+}
+p.preco1 {
+		margin: ;
+    color: darkgreen;
+    font-size: 2.0rem;
+    font-family: fantasy;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+div button.botao{
+	margin: auto;
+	padding: 0.5rem;
+	display: flex;
+	flex-direction: row-reverse;
+	margin-bottom: 10px;
+}
+.botao {
+  border: none;
+  outline: 0;
+  padding: 10px;
+  color: white;
+  background-color: darkgreen;
+  text-align: center;
+  cursor: pointer;
+  width: auto;
+  font-size: 18px;
+  border-radius: 15px;
+}
+.botao:hover {
+	opacity: 0.7;
+}
+svg {
+	background-color: darkgreen;
+	color: white;
+	margin-left: 9px;
+}
+/* Final do Container parte onde ficam todos os conteudos */
+
+/* Inicio Rodape */
+.attribution a{ 
+	text-decoration-line: underline;
+	color: green;
+}
+.attribution { 
+	text-align: center;
+	font-family: sans-serif;
+}
+.rodape:hover {
+	color: red;
+}
+.attribution a:hover {
+	color: red;
+}
+/* Final Rodape */
+}
